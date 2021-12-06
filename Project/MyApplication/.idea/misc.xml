@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/facebook_selector.xml" value="0.21875" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/instagram_selector.xml" value="2.271875" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/skype_selector.xml" value="0.21875" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/twitter_selector.xml" value="0.21875" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/drawable/youtube_selector.xml" value="0.21875" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_dashboard.xml" value="0.3625" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_facebook.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_notifications.xml" value="0.3625" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_skype.xml" value="0.1" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_twitter.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/layout/fragment_youtube.xml" value="0.1" />
+        <entry key="..\:/Users/Jaruwat/Dropbox/My PC (l3lackMegas)/Documents/Homework/Year 3-1/CS356/Week9/MyApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_like.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_sale.xml" value="0.1" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_skype.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_twitter.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/layout/fragment_youtube.xml" value="0.3625" />
+        <entry key="..\:/Users/Yumiru/Downloads/Week9-20211206T051438Z-001/Week9/MyApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
