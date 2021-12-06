@@ -4,7 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/purple_200"
+    android:foregroundTint="@color/gray"
     tools:context=".ui.SaleMenu.SaleFragment">
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/gray"
+        android:backgroundTint="#CCD1D1" />
 
     <EditText
         android:id="@+id/editText"
@@ -34,7 +45,78 @@
         android:text="*name"
         android:textSize="20dp" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher_background" />
 
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="266dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="175dp"
+        android:text="*name"
+        android:textSize="18dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:text="*name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="266dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="325dp"
+        android:text="*name"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:text="*name"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview5"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="266dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="475dp"
+        android:text="*name"
+        android:textSize="18dp" />
 
 
 </RelativeLayout>

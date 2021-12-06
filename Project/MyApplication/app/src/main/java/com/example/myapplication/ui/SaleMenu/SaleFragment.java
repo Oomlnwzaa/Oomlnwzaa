@@ -16,24 +16,14 @@ import com.example.myapplication.databinding.FragmentSaleBinding;
 
 public class SaleFragment extends Fragment {
 
-    private SaleViewModel homeViewModel;
+    private SaleViewModel saleViewModel;
     private FragmentSaleBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(SaleViewModel.class);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        saleViewModel = new ViewModelProvider(this).get(SaleViewModel.class);
 
         binding = FragmentSaleBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textSale;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
         return root;
     }
 

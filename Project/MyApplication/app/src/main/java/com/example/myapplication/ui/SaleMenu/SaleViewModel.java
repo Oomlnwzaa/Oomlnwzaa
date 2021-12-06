@@ -9,8 +9,6 @@ public class SaleViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
     public SaleViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is Sale fragment");
     }
 
     public LiveData<String> getText() {
