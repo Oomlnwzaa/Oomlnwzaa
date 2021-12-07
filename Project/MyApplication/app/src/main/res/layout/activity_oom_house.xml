@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OomHouse">
+
+    <ScrollView
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แสงทอง"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="800px"
+                app:srcCompat="@drawable/_42515_13101710350017047503" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="800px"
+                app:srcCompat="@drawable/unnamed" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="x96LtKQIRHg" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginTop="10px"
+
+                android:textAlignment="center"
+                android:text="\nห้องพักสะอาด กว้างขวาง มีที่จอดรถหน้าห้องพัก
+                \nบ้านเดี่ยว บ้านแฝด เรือนแถว ห้องรวม
+                \nมีพื้นที่ให้ปิ้งย่าง
+                \nใกล้ทะเลเดินไปเพียง100ม.
+                \nใกล้ร้านสะดวกซื้อ
+                \nใกล้ตลาดแหล่งรวมอาหารสด-แห้ง
+                \nสระว่ายน้ำส่วนกลาง
+                \nเตาปิ้งย่างบริการให้ยืมฟรี
+                \nแอร์ ทีวี น้ำอุ่น Free WIFI
+                \nราคาเริ่มต้นที่800บาท
+                \n📱สนใจสอบถาม-จองห้องพัก
+                \nline:ID @159ylbwg
+                \nโทร: 089-0930770 (คุณหน่อง)" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:text="กลับ" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
