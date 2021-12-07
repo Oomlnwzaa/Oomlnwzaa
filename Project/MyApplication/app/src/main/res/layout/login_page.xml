@@ -30,8 +30,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="130dp"
         android:focusable="true"
-        android:inputType="text"
         android:hint="Name"
+        android:inputType="text"
         android:textColorHighlight="#ff7eff15" />
 
     <EditText
