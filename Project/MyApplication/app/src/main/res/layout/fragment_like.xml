@@ -33,6 +33,8 @@
         android:layout_below="@id/textview1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="ไปหากันเลย" />
+        android:backgroundTint="#A4EBF3"
+        android:text="ไปหากันเลย"
+        android:textColor="#000000" />
 
 </RelativeLayout>

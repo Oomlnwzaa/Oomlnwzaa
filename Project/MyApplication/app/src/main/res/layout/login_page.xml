@@ -7,26 +7,17 @@
     android:paddingRight="8dp"
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Login"
-        android:textSize="20dp" />
+    tools:context=".loginActivity">
 
     <TextView
         android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PAIPUK"
-        android:layout_marginTop="150dp"
-        android:layout_below="@+id/textview"
         android:layout_centerHorizontal="true"
-        android:textSize="50dp"/>
+        android:layout_marginTop="150dp"
+        android:text="PAIPUK"
+        android:textColor="#A4EBF3"
+        android:textSize="50dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -63,12 +54,12 @@
         android:id="@+id/click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forget you password?"
-        android:textSize="15dp"
-        android:onClick="onClick"
-        android:clickable="true"
         android:layout_below="@id/editText2"
-        android:layout_marginLeft="245dp"/>
+        android:layout_marginLeft="245dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="Forget you password?"
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/button1"
@@ -77,27 +68,29 @@
         android:layout_below="@id/click"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#A4EBF3"
         android:text="login" />
 
     <TextView
         android:id="@+id/click2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doesn't have account? Sing up NOW."
-        android:textSize="15dp"
-        android:onClick="onClick2"
-        android:clickable="true"
+        android:layout_below="@id/button1"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/button1"/>
+        android:clickable="true"
+        android:onClick="onClick2"
+        android:text="Doesn't have account? Sing up NOW."
+        android:textColor="#2754C7"
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/textview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/click2"
-        android:layout_toEndOf="@+id/textview"
-        android:layout_toRightOf="@+id/textview"
-        android:layout_marginLeft="160dp"
+        android:layout_toEndOf="@+id/textview1"
+        android:layout_toRightOf="@+id/click"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="110dp"
         android:text="3"
         android:textSize="10dp" />
