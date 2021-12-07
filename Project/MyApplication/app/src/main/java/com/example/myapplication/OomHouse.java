@@ -24,10 +24,21 @@ public class OomHouse extends AppCompatActivity {
                 openOomHome();
             }
             public void openOomHome(){
-                Intent intent = new Intent(OomHouse.this,MainActivity.class);
+                Intent intent = new Intent(OomHouse.this,loginActivity.class);
                 startActivity(intent);
             }
 
+        });
+
+        ImageView imageView = (ImageView) findViewById(R.id.imageView4);
+        imageView.setImageResource(R.drawable._42515_13101710350017047503);
+        imageView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Toast.makeText(getApplicationContext(), "บรรยากาศที่พัก",
+                        Toast.LENGTH_SHORT).show();
+            }
         });
 
         ImageView imageView2 = (ImageView) findViewById(R.id.imageView5);
@@ -41,8 +52,5 @@ public class OomHouse extends AppCompatActivity {
             }
         });
 
-    }
-    public void toastImg4 (View v){
-        Toast.makeText(OomHouse.this,"Hey",Toast.LENGTH_SHORT);
     }
 }

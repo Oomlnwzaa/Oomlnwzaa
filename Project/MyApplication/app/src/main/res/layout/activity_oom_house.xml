@@ -34,7 +34,6 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="800px"
-                android:onClick="toastImg4"
                 app:srcCompat="@drawable/_42515_13101710350017047503" />
 
             <ImageView

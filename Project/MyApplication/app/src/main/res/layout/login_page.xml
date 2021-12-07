@@ -30,6 +30,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="130dp"
         android:focusable="true"
+        android:inputType="text"
         android:hint="Name"
         android:textColorHighlight="#ff7eff15" />
 
@@ -43,12 +44,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
+        android:ems="10"
         android:focusable="true"
         android:hint="Password"
-        android:ems="10"
-        android:textSize="18dp"
         android:inputType="textPassword"
-        android:textColorHighlight="#ff7eff15" />
+        android:textColorHighlight="#ff7eff15"
+        android:textSize="18dp" />
 
     <TextView
         android:id="@+id/click"
