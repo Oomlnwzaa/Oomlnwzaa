@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/textview7"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="500dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
@@ -37,36 +37,38 @@
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="150dp"
-        android:text="*name"
+        android:text="แสงทองรีสอร์ท"
         android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/textview"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="5dp"
         android:src="@drawable/sangtong" />
 
     <TextView
         android:id="@+id/textview2"
-        android:layout_width="266dp"
+        android:layout_width="240dp"
         android:layout_height="129dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="175dp"
-        android:text="*name"
+        android:text="ราคาเริ่มต้น 800 \n 📱สนใจสอบถาม-จองห้องพัก \n
+line:ID @159ylbwg \n
+โทร: 089-0930770 (คุณหน่อง)"
         android:textSize="18dp"
         android:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/textview3"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="5dp"
         android:src="@drawable/tamajun" />
 
@@ -74,45 +76,45 @@
         android:id="@+id/textview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="300dp"
-        android:text="*name"
+        android:text="ท่ามาจัน"
         android:textSize="20dp" />
 
     <TextView
         android:id="@+id/textview4"
-        android:layout_width="266dp"
+        android:layout_width="240dp"
         android:layout_height="129dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="325dp"
-        android:text="*name"
+        android:text="ราคาเริ่มต้น: 1,386 บาท \n โทร: 098 968 6111"
         android:textSize="18dp" />
 
     <TextView
         android:id="@+id/textview5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="450dp"
-        android:text="*name"
+        android:text="อาคันตุกะ โฮมสเตย์"
         android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/textview5"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="5dp"
-        android:src="@drawable/akantukahomestay" />
+        android:src="@drawable/akantuk" />
 
     <TextView
         android:id="@+id/textview6"
-        android:layout_width="266dp"
+        android:layout_width="240dp"
         android:layout_height="129dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="475dp"
-        android:text="*name"
+        android:text="ราคาเริ่มต้น: 1,800 บาท \n โทร: 0927120007"
         android:textSize="18dp" />
 
 
