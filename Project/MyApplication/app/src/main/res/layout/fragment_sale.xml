@@ -31,7 +31,7 @@
         android:layout_marginLeft="350dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/ic_baseline_search_24"
-        android:text="login" />
+       />
 
     <TextView
         android:id="@+id/textview"
@@ -41,6 +41,7 @@
         android:layout_marginTop="150dp"
         android:text="แสงทองรีสอร์ท"
         android:textSize="20dp" />
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -57,11 +58,13 @@
         android:layout_height="129dp"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="175dp"
-        android:text="ราคาเริ่มต้น 800 \n 📱สนใจสอบถาม-จองห้องพัก \n
+        android:text="ราคาเริ่มต้น 800 \n
 line:ID @159ylbwg \n
 โทร: 089-0930770 (คุณหน่อง)"
         android:textSize="18dp"
         android:visibility="visible" />
+
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -116,6 +119,8 @@ line:ID @159ylbwg \n
         android:layout_marginTop="475dp"
         android:text="ราคาเริ่มต้น: 1,800 บาท \n โทร: 0927120007"
         android:textSize="18dp" />
+
+
 
 
 </RelativeLayout>

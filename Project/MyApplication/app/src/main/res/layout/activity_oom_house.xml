@@ -7,28 +7,34 @@
     tools:context=".OomHouse">
 
     <ScrollView
-        android:layout_width="363dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="18dp">
+        tools:layout_editor_absoluteY="18dp"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginLeft="70px"
+            android:layout_marginRight="70px">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="แสงทอง"
+                android:layout_marginTop="15px"
                 android:textAlignment="center"
-                android:textSize="15dp" />
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="800px"
+                android:onClick="toastImg4"
                 app:srcCompat="@drawable/_42515_13101710350017047503" />
 
             <ImageView
@@ -50,6 +56,7 @@
                 android:layout_marginTop="10px"
 
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:text="\nห้องพักสะอาด กว้างขวาง มีที่จอดรถหน้าห้องพัก
                 \nบ้านเดี่ยว บ้านแฝด เรือนแถว ห้องรวม
                 \nมีพื้นที่ให้ปิ้งย่าง
