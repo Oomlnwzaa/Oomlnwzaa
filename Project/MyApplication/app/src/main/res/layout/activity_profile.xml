@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="90px"
+        android:textSize="20dp"
+        android:text="ตั้งค่าโปรไฟล์"
+        android:textColor="@color/black"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="280px"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        app:srcCompat="@drawable/depositphotos" />
+
+    <Button
+
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="370px"
+        android:layout_marginTop="980px"
+        android:backgroundTint="#A4EBF3"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="ถ่ายรูปโปรไฟล์" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="1580px"
+        android:backgroundTint="#A4EBF3"
+        android:text="กลับ"
+        android:textColor="@color/black" />
+</RelativeLayout>

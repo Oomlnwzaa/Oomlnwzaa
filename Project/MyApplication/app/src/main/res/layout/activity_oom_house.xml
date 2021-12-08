@@ -71,8 +71,18 @@
                 \nโทร: 089-0930770 (คุณหน่อง)" />
 
             <Button
+                android:id="@+id/button3"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="พิกัด" />
+
+            <Button
                 android:id="@+id/buttonBack"
                 android:layout_width="300px"
+
+                android:backgroundTint="#A4EBF3"
+                android:textColor="@color/black"
                 android:layout_height="wrap_content"
                 android:text="กลับ" />
         </LinearLayout>

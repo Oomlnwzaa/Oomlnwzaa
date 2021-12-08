@@ -54,40 +54,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="500px"
-        android:layout_height="500px"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="22dp"
-        app:layout_constraintBottom_toTopOf="@+id/text_setting"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/depositphotos"
-        tools:src="@drawable/depositphotos" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="800px"
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="53dp"
-        android:layout_marginBottom="288dp"
-        android:backgroundTint="#A4EBF3"
-        android:shadowColor="#A4EBF3"
-        android:text="เลือกรูปโปรไฟล์"
-        android:textColor="#000000"
-        android:textColorHighlight="#A4EBF3"
-        android:textColorHint="#A4EBF3"
-        android:textColorLink="#A4EBF3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_setting"
-        app:rippleColor="#A4EBF3" />
+        android:text="ตั้งค่าโปรไฟล์"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="221dp"/>
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ตั้งค่าภาษา"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="221dp"/>
+
 </RelativeLayout>

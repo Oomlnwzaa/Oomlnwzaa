@@ -22,7 +22,8 @@ public class loginActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     private Button button;
-
+    private Button button2;
+    private Button button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,31 @@ public class loginActivity extends AppCompatActivity {
             }
 
         });
+
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v ){ openTamajun();}
+            public void openTamajun(){
+                Intent intent = new Intent(loginActivity.this,TamajunActivity.class);
+                startActivity(intent);
+            }
+
+        });
+        button2 = (Button) findViewById(R.id.button12);
+        button2.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                openOomHome2();
+            }
+            public void openOomHome2(){
+                Intent intent = new Intent(loginActivity.this,ProfileActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+
         BottomNavigationView navView = findViewById(R.id.nav_view);
         navView.setItemIconTintList(null);
         // Passing each menu ID as a set of Ids because each

@@ -9,14 +9,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class OomHouse extends AppCompatActivity {
+public class TamajunActivity extends AppCompatActivity {
+
     private Button button;
     private Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_oom_house);
+        setContentView(R.layout.activity_tamajun);
 
         button = (Button) findViewById(R.id.buttonBack);
         button.setOnClickListener(new View.OnClickListener() {
@@ -25,27 +26,27 @@ public class OomHouse extends AppCompatActivity {
                 openOomHome();
             }
             public void openOomHome(){
-                Intent intent = new Intent(OomHouse.this,loginActivity.class);
+                Intent intent = new Intent(TamajunActivity.this,loginActivity.class);
                 startActivity(intent);
             }
 
         });
 
-        button2 = (Button) findViewById(R.id.button3);
+        button2 = (Button) findViewById(R.id.buttonLocate);
         button2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
                 openOomHome();
             }
             public void openOomHome(){
-                Intent intent = new Intent(OomHouse.this,MapsActivity.class);
+                Intent intent = new Intent(TamajunActivity.this,MapsActivity2.class);
                 startActivity(intent);
             }
 
         });
 
-        ImageView imageView = (ImageView) findViewById(R.id.imageView4);
-        imageView.setImageResource(R.drawable._42515_13101710350017047503);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView10);
+        imageView.setImageResource(R.drawable.tamajun);
         imageView.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -55,8 +56,8 @@ public class OomHouse extends AppCompatActivity {
             }
         });
 
-        ImageView imageView2 = (ImageView) findViewById(R.id.imageView5);
-        imageView2.setImageResource(R.drawable.unnamed);
+        ImageView imageView2 = (ImageView) findViewById(R.id.imageView11);
+        imageView2.setImageResource(R.drawable._2_tamajun);
         imageView2.setOnClickListener(new View.OnClickListener() {
 
             @Override

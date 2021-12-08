@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_maps.xml" value="0.2109375" />
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_oom_home.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_oom_house.xml" value="0.20520231213872833" />
-        <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_profile.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/activity_tamajun.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/fragment_like.xml" value="0.1359375" />
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/fragment_sale.xml" value="0.2" />
         <entry key="..\:/Users/Admin/Documents/GitHub/Android/Oomlnwzaa/Project/MyApplication/app/src/main/res/layout/fragment_setting.xml" value="0.264" />
