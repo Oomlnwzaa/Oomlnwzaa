@@ -40,8 +40,6 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
@@ -49,7 +47,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
         android:ems="10"
         android:focusable="true"
         android:hint="Password"

@@ -16,10 +16,10 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_marginLeft="250px"
-        android:layout_marginTop="280px"
         android:layout_width="600px"
         android:layout_height="600px"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="280px"
         app:srcCompat="@drawable/depositphotos" />
 
     <Button
